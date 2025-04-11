@@ -67,45 +67,100 @@ function CompanyProfile() {
 
           {/* Team  */}
           <section>
-            <h2 className="font-semibold text-lg mb-3 text-center">Company Team</h2>
-            <div className="grid grid-cols-5 gap-4 justify-items-center">
-              {teamMembers.map((member, index) => (
-                <div key={index} className="flex flex-col items-center">
-                  <img
-                    src="https://randomuser.me/api/portraits/women/44.jpg"
-                    alt={member}
-                    className="w-12 h-12 rounded-full object-cover"
-                  />
-                  <span className="text-sm mt-1">{member}</span>
-                </div>
-              ))}
-            </div>
-          </section>
+  <h2 className="font-semibold text-lg mb-3 text-center">Company Team</h2>
+  <div className="grid grid-cols-5 gap-4 justify-items-center">
+    
+    <div className="flex flex-col items-center">
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        alt="Emily"
+        className="w-12 h-12 rounded-full object-cover"
+      />
+      <span className="text-sm mt-1">Emily</span>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        alt="Emily"
+        className="w-12 h-12 rounded-full object-cover"
+      />
+      <span className="text-sm mt-1">Emily</span>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        alt="Emily"
+        className="w-12 h-12 rounded-full object-cover"
+      />
+      <span className="text-sm mt-1">Emily</span>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        alt="Emily"
+        className="w-12 h-12 rounded-full object-cover"
+      />
+      <span className="text-sm mt-1">Emily</span>
+    </div>
+
+    <div className="flex flex-col items-center">
+      <img
+        src="https://randomuser.me/api/portraits/women/44.jpg"
+        alt="Emily"
+        className="w-12 h-12 rounded-full object-cover"
+      />
+      <span className="text-sm mt-1">Emily</span>
+    </div>
+    
+  </div>
+</section>
+
 
           {/* Showcase  */}
           <section className="bg-white rounded-2xl shadow-md p-4">
-            <h2 className="font-semibold text-lg mb-3">Showcase</h2>
-            <div className="flex items-center gap-3 mb-4">
-              <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" className="w-8 h-8 rounded-full" />
-              <div>
-                <h4 className="font-semibold">Summer Collection</h4>
-                <p className="text-sm text-gray-500">A showcase of our latest summer apparel.</p>
-              </div>
-            </div>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
-              {Array(5).fill().map((_, i) => (
-                <img
-                  key={i}
-                  src="https://cdn4.vectorstock.com/i/1000x1000/57/73/hands-holding-laptop-shop-online-digital-vector-12805773.jpg"
-                  alt={`Showcase ${i + 1}`}
-                  className="rounded-lg"
-                />
-              ))}
-            </div>
-            <p className="text-sm text-gray-500 mt-3 flex items-center gap-1">
-              <FaEye /> Views
-            </p>
-          </section>
+  <h2 className="font-semibold text-lg mb-3">Showcase</h2>
+  <div className="flex items-center gap-3 mb-4">
+    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="User" className="w-8 h-8 rounded-full" />
+    <div>
+      <h4 className="font-semibold">Summer Collection</h4>
+      <p className="text-sm text-gray-500">A showcase of our latest summer apparel.</p>
+    </div>
+  </div>
+  <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/57/73/hands-holding-laptop-shop-online-digital-vector-12805773.jpg"
+      alt="Showcase 1"
+      className="rounded-lg"
+    />
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/57/73/hands-holding-laptop-shop-online-digital-vector-12805773.jpg"
+      alt="Showcase 2"
+      className="rounded-lg"
+    />
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/57/73/hands-holding-laptop-shop-online-digital-vector-12805773.jpg"
+      alt="Showcase 3"
+      className="rounded-lg"
+    />
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/57/73/hands-holding-laptop-shop-online-digital-vector-12805773.jpg"
+      alt="Showcase 4"
+      className="rounded-lg"
+    />
+    <img
+      src="https://cdn4.vectorstock.com/i/1000x1000/57/73/hands-holding-laptop-shop-online-digital-vector-12805773.jpg"
+      alt="Showcase 5"
+      className="rounded-lg"
+    />
+  </div>
+  <p className="text-sm text-gray-500 mt-3 flex items-center gap-1">
+    <FaEye /> Views
+  </p>
+</section>
+
         </div>
 
         {/*Services*/}
